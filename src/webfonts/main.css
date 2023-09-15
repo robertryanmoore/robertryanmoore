@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #1e2d29;
+		background-color: #1e252d;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -144,14 +144,14 @@ input, select, textarea {
 		}
 
 	body {
-		color: #cccccc;
+		color: #212931;
 	}
 
 	body, input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 1.6;
+		line-height: 2.375;
 	}
 
 	a {
@@ -174,15 +174,6 @@ input, select, textarea {
 	em, i {
 		font-style: italic;
 	}
-
-	#responseError{
-		color: red;
-	}
-
-	#response:not(:empty) {
-		border: 5px solid green;
-		padding: 5px;
-	  }
 
 	p {
 		text-align: justify;
@@ -211,14 +202,14 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2rem;
+		font-size: 1.75rem;
 		line-height: 1.3;
-		margin: 0 0 0 0;
+		margin: 0 0 1.5rem 0;
 	}
 
 	h3 {
 		font-size: 1.25rem;
-		margin: 1.6rem 0 0.4rem 0;
+		margin: 0 0 1.5rem 0;
 	}
 
 	h4 {
@@ -297,13 +288,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		/*color: #213121;*/
-		color: rgb(83, 83, 83);
+		color: #212931;
 	}
 
 	a {
-
-		color: rgb(177, 244, 82);
+		color: #212931;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
@@ -313,11 +302,11 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: rgb(177, 244, 82);
+		color: #212931;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: rgb(177, 244, 82);
+		color: #212931;
 	}
 
 	blockquote {
@@ -2217,9 +2206,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px rgb(177, 244, 82);
-		color: rgb(177, 244, 82) !important;
-
+		box-shadow: inset 0 0 0 2px #212931;
+		color: #212931 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2227,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px rgb(0, 255, 21);
-			color: rgb(0, 255, 21) !important;
+			box-shadow: inset 0 0 0 2px #18bfef;
+			color: #18bfef !important;
 		}
 
 		input[type="submit"].primary,
@@ -2487,7 +2475,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: rgb(177, 244, 82);
+		color: #212931;
 	}
 
 	input[type="text"],
@@ -2496,7 +2484,6 @@ input, select, textarea {
 	select,
 	textarea {
 		border-color: #eeeeee;
-		background-color: rgb(83, 83, 83);
 	}
 
 		input[type="text"]:focus,
@@ -2522,7 +2509,7 @@ input, select, textarea {
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #cccccc; /***here***/
+		color: #212931;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -3217,7 +3204,7 @@ input, select, textarea {
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: rgb(0, 255, 21);
+				border-left-color: #18bfef;
 			}
 
 		.pagination a.active {
@@ -3247,7 +3234,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("images/bg.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3597,7 +3584,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 4rem;
+				height: 14rem;
 				padding-bottom: 4rem;
 			}
 
@@ -3645,7 +3632,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: rgb(0, 255, 21);
+			color: #18bfef;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3653,7 +3640,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px rgb(0, 255, 21);
+			box-shadow: inset 0 0 0 2px #18bfef;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3667,7 +3654,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: rgb(0, 255, 21) !important;
+				color: #18bfef !important;
 			}
 
 		#nav strong, #nav b {
@@ -3735,15 +3722,15 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: rgb(38, 38, 38);
+					background-color: #ffffff;
 				}
 
 					#nav ul.links li.active a {
-						color: rgb(0, 255, 21);
+						color: #1e252d;
 					}
 
 						#nav ul.links li.active a:hover {
-							color: rgb(0, 255, 21) !important;
+							color: #18bfef !important;
 						}
 
 		#nav ul.icons {
@@ -3769,14 +3756,13 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: rgb(38, 38, 38);
+		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
-
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
@@ -3853,7 +3839,7 @@ input, select, textarea {
 			text-align: center;
 			width: 100%;
 			padding: 0;
-            sborder-top-width: 5px;
+            border-top-width: 5px;
 		}
 
 			#main > .posts > * {
@@ -3877,7 +3863,11 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
-				text-align: center; 
+				border-color: #eeeeee;
+				border-left-width: 2px;
+				border-style: solid;
+				border-top-width: 2px;
+				text-align: center;
 			}
 
 				#main > .posts > article > :last-child {
@@ -3947,32 +3937,12 @@ input, select, textarea {
 			}
 
 		}
-        
-        @media screen and (max-width: 620px) {
-
-			#main {
-				width: 100%;
-                overflow-wrap: break-word;
-                
-			}
-            
-            .email > h2{
-                font-size: 1.59rem;
-                }
-
-		}
 
 		@media screen and (max-width: 480px) {
 
 			#main {
 				width: 100%;
-                overflow-wrap: break-word;
-                
 			}
-            
-            .email > h2{
-                font-size: 1.59rem;
-                }
 
 		}
 
@@ -3995,7 +3965,7 @@ input, select, textarea {
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: rgb(83, 83, 83);
+			color: #717981;
 		}
 
 		#footer a {
@@ -4556,7 +4526,7 @@ input, select, textarea {
 		}
 
 		#navPanelToggle.alt {
-			background-color: rgba(255, 255, 255, 0.875); /*here*/
+			background-color: rgba(255, 255, 255, 0.875);
 			box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
 			color: #212931;
 		}
@@ -4593,9 +4563,9 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background:/* #ffffff;*/ rgb(38, 38, 38);
+		background: #ffffff;
 		box-shadow: none;
-		color: #eeeeee;
+		color: #212931;
 		height: 100%;
 		max-width: 80%;
 		overflow-y: auto;
@@ -4641,7 +4611,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			border: 0;
-			color: #909498; /*color: #eeeeee; /*here*/
+			color: #909498;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
@@ -4716,37 +4686,5 @@ input, select, textarea {
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
-	}
 
-	#shield-container {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0, 0, 0, 0.5);
-		z-index: 9999;
-		display: none;
-	  }
-	  
-	  #shield {
-		position: absolute;
-  		top: 50%;
- 		left: 50%;
-  		width: 31%;
-  		height: auto;
- 		transform: translate(-50%, -50%);
- 		animation: pulse 2s infinite;
-	  }
-	  
-	  @keyframes pulse {
-		0% {
-		  transform: translate(-50%, -50%) scale(1);
-		}
-		50% {
-		  transform: translate(-50%, -50%) scale(1.1);
-		}
-		100% {
-		  transform: translate(-50%, -50%) scale(1);
-		}
-	  }
+	}
