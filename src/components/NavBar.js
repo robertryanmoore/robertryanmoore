@@ -15,9 +15,10 @@ function Navbar() {
         <li>
           <a href="digitalcv.html">Digital CV</a>
         </li>
+    {/** }
         <li>
           <a href="freelance.html">Freelance</a>
-        </li>
+        </li> {*/} 
       </ul>
       <ul className="icons">
         <li>
