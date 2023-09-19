@@ -8,3 +8,14 @@ That said,  I am 100% guilty of being one of those guys who creates repos for ne
 
 ## THIS REPO
 I've used this repop for my [portfolio website](https://robertryanmoore.co.za/index.html). It's a fairly basic react site,  serverd through Nginx on an Oracle Cloud Ubuntu VM.
+
+## OTHER REPOS WORTH MENTIONING
+[OneByOne](https://github.com/robertryanmoore/OneByOne)\
+The first thing I ever wrote in Python. Yes, I followed a tut but I still wanted to do something more than Hello World.
+
+[AutoBackup](https://github.com/robertryanmoore/AutoBackup)\
+This was a 'I can't sleep' project I did in the middle of the night during lockdown. My dad had been complaing about need incremental backups.
+
+[Quaide Rumble](https://github.com/robertryanmoore/quaiderumble)\
+A plain old html/css/js website for my best friend, who is a writer.
+
