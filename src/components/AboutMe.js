@@ -5,6 +5,9 @@ import ann from '../images/ann.jpeg'
 import healthCheck from '../images/selenium_logo.png'
 
 function AboutMe() {
+
+  let display = true;
+
     return (
         <div id="main">
             {/* Posts */}
