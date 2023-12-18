@@ -1,18 +1,25 @@
 import React from 'react';
+import DigitalCV from './DigitalCV';
 //import styles from '.NavBar.css';
 
 function Navbar() {
 
+  function CustomLink({href, children}){
+
+    const path = window.location.pathname
+
+    return (
+      <li className={path ===  href ? "active" : ""}>
+          <a href={href}>{children}</a>
+        </li>
+    )
+  }
 
   return (
     <nav id="nav">
       <ul className="links">
-        <li className="active">
-          <a href="/aboutme">About Me</a>
-        </li>
-        <li>
-          <a href="/digitalcv">Digital CV</a>
-        </li>
+        <CustomLink href={"/aboutme"}>About Me</CustomLink>
+        <CustomLink href={"/digitalcv"}>Digital CV</CustomLink>
     {/** }
         <li>
           <a href="freelance.html">Freelance</a>
