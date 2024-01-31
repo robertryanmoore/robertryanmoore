@@ -139,32 +139,32 @@ function DigitalCV() {
                     </p>
 
                     <h3>Skills</h3>
-                        <table>
-                            <tr>
-                                <td>Java <img src={java} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                                <td>HTML <img src={html} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                            </tr>
-                            <tr>
-                                <td>C# <img src={csharp} height="24px" width="24p" style={{ marginBottom: '-5px' }} /></td>
-                                <td>CSS <img src={css} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                            </tr>
-                            <tr>
-                                <td>SQL <img src={sql} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                                <td>JSP <img src={jsp} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                            </tr>
-                            <tr>
-                                <td>Maven <img src={maven} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                                <td>Selenium Web Driver <img src={selenium} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                            </tr>
-                            <tr>
-                                <td>Python <img src={python} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                                <td>JavaScript <img src={js} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                            </tr>
-                            <tr>
-                                <td>Ionic <img src={ionic} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
-                                <td>Spring Boot <img src={spring} width="24px" style={{ marginBottom: '-5px' }} /></td>
-                            </tr>
-                        </table>
+                    <table>
+                        <tr>
+                            <td>Java <img src={java} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                            <td>HTML <img src={html} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                        </tr>
+                        <tr>
+                            <td>C# <img src={csharp} height="24px" width="24p" style={{ marginBottom: '-5px' }} /></td>
+                            <td>CSS <img src={css} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                        </tr>
+                        <tr>
+                            <td>SQL <img src={sql} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                            <td>JSP <img src={jsp} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                        </tr>
+                        <tr>
+                            <td>Maven <img src={maven} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                            <td>Selenium Web Driver <img src={selenium} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                        </tr>
+                        <tr>
+                            <td>Python <img src={python} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                            <td>JavaScript <img src={js} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                        </tr>
+                        <tr>
+                            <td>Ionic <img src={ionic} height="24px" width="24px" style={{ marginBottom: '-5px' }} /></td>
+                            <td>Spring Boot <img src={spring} width="24px" style={{ marginBottom: '-5px' }} /></td>
+                        </tr>
+                    </table>
                     <h3>Volunteer Work</h3>
                     <p>
                         <b>
@@ -261,10 +261,10 @@ function DigitalCV() {
                     <table>
                         <tr>
                             <td>
-                                <b>Ruari Plint</b><br />
-                                Lead Systems Analyst<br />
-                                IAM Team<br />
-                                Old Mutual<br />
+                                <b>Jason Prinsloo</b><br />
+                                Tech Lead<br />
+                                ABLE Music<br />
+                                <br />
                             </td>
                             <td>
                                 <b>Mary Klinkradt</b><br />
@@ -274,21 +274,27 @@ function DigitalCV() {
                         </tr>
                         <tr>
                             <td>
-                                <b>Ernst Kotzé</b><br />
-                                Information Technology Teacher<br />
-                                Brackenfell High School<br />
+                                <b>Sylvester Gordon</b><br />
+                                Manager<br />
+                                Paltrack<br />
                             </td>
+                            <td>
+                                <b>Ruari Plint</b><br />
+                                Lead Systems Analyst<br />
+                                IAM Team<br />
+                                Old Mutual<br />
+                            </td>
+                        </tr>
+                        <tr>
                             <td>
                                 <b>Brett Taylor</b><br />
                                 Worship Pastor<br />
                                 Durbanville Baptist Church<br />
                             </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <b>Sylvester Gordon</b><br />
-                                Manager<br />
-                                Paltrack<br />
+                            <td>
+                                <b>Amien Arnold</b><br />
+                                Team Lead<br />
+                                XIB Solutions<br />
                             </td>
                         </tr>
                     </table>
