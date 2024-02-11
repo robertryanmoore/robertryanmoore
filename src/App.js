@@ -1,6 +1,7 @@
 import Navbar from './components/NavBar'; // Adjust the path to the Navbar component file as needed
 import AboutMe from './components/AboutMe';
 import DigitalCV from './components/DigitalCV';
+import Freelance from './components/Freelance';
 
 function App() {
 
@@ -16,6 +17,10 @@ function App() {
     case "/digitalcv":
       Component = <DigitalCV />
       break
+    case "/freelance":
+      Component = <Freelance />
+     break
+      
   }
 
   return (

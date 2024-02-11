@@ -1,6 +1,4 @@
 import React from 'react';
-import DigitalCV from './DigitalCV';
-//import styles from '.NavBar.css';
 
 function Navbar() {
 
@@ -20,10 +18,7 @@ function Navbar() {
       <ul className="links">
         <CustomLink href={"/aboutme"}>About Me</CustomLink>
         <CustomLink href={"/digitalcv"}>Digital CV</CustomLink>
-    {/** }
-        <li>
-          <a href="freelance.html">Freelance</a>
-        </li> {*/} 
+        <CustomLink href={"/freelance"}>Freelance</CustomLink> 
       </ul>
       <ul className="icons">
         <li>
